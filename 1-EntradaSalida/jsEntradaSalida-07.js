@@ -15,7 +15,7 @@ function sumar()
 	num1=parseInt(document.getElementById("txtIdNumeroUno").value);
 	num2=parseInt(document.getElementById("txtIdNumeroDos").value);
 	resultado=num1+num2;
-	alert("la suma es: "+resultado);
+	alert("La suma es: "+resultado);
 }
 function restar()
 {
@@ -24,7 +24,7 @@ function restar()
 num1=parseInt(document.getElementById("txtIdNumeroUno").value);
 num2=parseInt(document.getElementById("txtIdNumeroDos").value);
 resultado=num1-num2;
-alert(resultado);	
+alert("La resta es: "+resultado);	
 }
 
 function multiplicar()
@@ -34,7 +34,7 @@ let num2;
 num1=parseInt(document.getElementById("txtIdNumeroUno").value);
 num2=parseInt(document.getElementById("txtIdNumeroDos").value);
 	resultado=num1*num2;
-	alert(resultado);
+	alert("El producto es: "+resultado);
 	
 }
 
@@ -45,7 +45,7 @@ let num2;
 num1=parseInt(document.getElementById("txtIdNumeroUno").value);
 num2=parseInt(document.getElementById("txtIdNumeroDos").value);
 	resultado=num1/num2;
-	alert(resultado);
+	alert("El cociente es: "+resultado);
 	
 }
 

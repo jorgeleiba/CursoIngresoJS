@@ -11,9 +11,9 @@ function mostrarAumento()
 
 	//para calcular el nuevo sueldo deberìa sumarle al sueldo original el aumento
 	
-	sueldo = parseFloat (document.getElementById("txtIdSueldo").nodeValue);
+	sueldo = parseFloat (document.getElementById("txtIdSueldo").value);
 
-	aumneto = sueldo * 10 / 100;
+	aumento = sueldo * 10 / 100;
 
 	nuevoSueldo = sueldo + aumento;
 
